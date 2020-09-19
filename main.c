@@ -12,7 +12,7 @@ printf("5. Modulus\n");
 printf("6. Power\n");
 printf("7. Factorial\n");
 	
-scanf("%d, &operation);
+scanf("%d", &operation);
 
 switch(operand)
 {
