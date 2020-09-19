@@ -14,7 +14,7 @@ printf("7. Factorial\n");
 	
 scanf("%d", &operation);
 
-switch(operand)
+switch(operation)
 {
        case 1:  printf("Enter first operand\n");
 	        scanf("%d", &number1);
