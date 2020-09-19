@@ -1,8 +1,8 @@
 #include <calculator.h>
 
-int addition(int number1,int number2)
+long addition(int number1,int number2)
 {
-   int sum=0;
+   long sum=0;
    sum=number1+number2;
    return sum;
 }
@@ -14,7 +14,7 @@ int addition(int number1,int number2)
 	return subtract;
 }
 
-int multiplication(int number1,int number2)
+long multiplication(int number1,int number2)
 {
 	int multiply=0;
 	multiply = number1*number2;
@@ -36,22 +36,22 @@ int division(int number1,int number2)
 
 int modulus(int number1,int number2)
 {
-	int modulus=0;
+	int modulus;
 	modulus = number1%number2;
 	return modulus;
 }
 
-double power(double number,double power)
+long power(int number,int power)
 {
-	double result=1;
+	long result=1;
 	power=pow(number,power);
 	return result;
 }
 
-double factorial(int number)
+long factorial(int number)
 {
 	int temp;
-	double fact=1;
+	long fact=1;
 	if(number<0)
 	{
 		printf("Enter positive number\n");
