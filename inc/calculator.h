@@ -7,7 +7,7 @@
 
 long addition(int number1,int number2);
 int subtraction(int number1,int number2);
-int multiplication(int number1,int number2);
+long multiplication(int number1,int number2);
 int division(int number1,int number2);
 int modulus(int number1,int number2);
 long power(long number,long power);
