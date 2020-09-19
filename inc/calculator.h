@@ -1,5 +1,5 @@
-#ifndef calculator.h
-#define calculator.h
+#ifndef "calculator.h"
+#define "calculator.h"
 
 #include<stdio.h>
 #include<math.h>
