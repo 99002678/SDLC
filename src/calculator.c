@@ -56,11 +56,14 @@ long factorial(int number)
 	{
 		printf("Enter positive number\n");
 	}
-	for(temp=1;temp<=number;temp++)
-	{
-		fact=fact*temp;
+	else
+	{ 
+	       for(temp=1;temp<=number;temp++)
+	       {
+		    fact=fact*temp;
+               }
+	           return fact;
 	}
-	return fact;
 }
 	
 	
