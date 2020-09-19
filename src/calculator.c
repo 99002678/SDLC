@@ -1,6 +1,6 @@
 #include <calculator.h>
 
-long addition(int number1,int number2)
+int addition(int number1,int number2)
 {
    long sum=0;
    sum=number1+number2;
@@ -14,7 +14,7 @@ long addition(int number1,int number2)
 	return subtract;
 }
 
-long multiplication(int number1,int number2)
+int multiplication(int number1,int number2)
 {
 	int multiply=0;
 	multiply = number1*number2;
@@ -41,14 +41,18 @@ int modulus(int number1,int number2)
 	return modulus;
 }
 
-long power(int number,int power)
+int power(int number1,int number2)
 {
-	long result=1;
-	power=pow(number,power);
-	return result;
+	int power=1;
+	while(number2!=0)
+	{
+		power= power*number1;
+		--number2;
+	}
+	return power;
 }
 
-long factorial(int number)
+int factorial(int number1)
 {
 	int temp;
 	long fact=1;
