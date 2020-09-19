@@ -43,7 +43,7 @@ int modulus(int number1,int number2)
 
 double power(double number,double power)
 {
-	double result=0;
+	double result=1;
 	power=pow(number,power);
 	return result;
 }
