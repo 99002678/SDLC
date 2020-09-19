@@ -56,7 +56,7 @@ int factorial(int number1)
 {
 	int temp;
 	long fact=1;
-	if(number<0)
+	if(number1<0)
 	{
 		printf("Enter positive number\n");
 	}
