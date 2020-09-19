@@ -62,7 +62,7 @@ int factorial(int number1)
 	}
 	else
 	{ 
-	       for(temp=1;temp<=numbe1r;temp++)
+	       for(temp=1;temp<=number1;temp++)
 	       {
 		    fact=fact*temp;
                }
