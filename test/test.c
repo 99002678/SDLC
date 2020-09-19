@@ -43,49 +43,49 @@ int main()
  void test_subtraction(void)
  {
           CU_ASSERT(700 == subtraction(1500, 800));
-		  CU_ASSERT(-6 == subtraction(0, 6));
+          CU_ASSERT(-6 == subtraction(0, 6));
 		  
-		  CU_ASSERT(35 == subtraction(78, 10));
+          CU_ASSERT(35 == subtraction(78, 10));
  }
  
  void test_multiplication(void)
  {
           CU_ASSERT(70000 == multiplication(700, 100));
-		  CU_ASSERT(0 == multiplication(7, 0));
+	  CU_ASSERT(0 == multiplication(7, 0));
 		  
-		  CU_ASSERT(4 == multiplication(3, 2));
+          CU_ASSERT(4 == multiplication(3, 2));
  }
  
  void test_division(void)
  {
           CU_ASSERT(0 == division(3, 0)); 
-		  CU_ASSERT(90 == division(900, 10));
+          CU_ASSERT(90 == division(900, 10));
 		  
-		  CU_ASSERT(9 == division(80, 10));
+	  CU_ASSERT(9 == division(80, 10));
  }
  
  void test_modulus(void)
  {
           CU_ASSERT(0 == modulus(60, 10));
-		  CU_ASSERT(5 == modulus(35, 6));
+	  CU_ASSERT(5 == modulus(35, 6));
 		  
-		  CU_ASSERT(2 == modulus(43, 7));
+	  CU_ASSERT(2 == modulus(43, 7));
  }
  
  void test_power(void)
  {
            CU_ASSERT(9 == power(3, 2));
-		   CU_ASSERT(1 == power(3, 0));
+	   CU_ASSERT(1 == power(3, 0));
 		   
-		   CU_ASSERT(80 == power(3, 4));
+	   CU_ASSERT(80 == power(3, 4));
  }
  
  void test_factorial(void)
  {
              CU_ASSERT(6 == factorial(3));
-			 CU_ASSERT(1 == factorial(0));
-			 CU_ASSERT(1 == factorial(1));
+	     CU_ASSERT(1 == factorial(0));
+	     CU_ASSERT(1 == factorial(1));
 			 
-			 CU_ASSERT(22 == factorial(4));
+	     CU_ASSERT(22 == factorial(4));
  }
  
