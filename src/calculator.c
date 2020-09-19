@@ -23,7 +23,7 @@ int multiplication(int number1,int number2)
 
 int division(int number1,int number2)
 {
-	int division=0;
+	int division;
 	
 	if(number2==0)
 		return 0;
@@ -43,7 +43,7 @@ int modulus(int number1,int number2)
 
 double power(double number,double power)
 {
-	int result;
+	int result=0;
 	power=pow(number,power);
 	return result;
 }
