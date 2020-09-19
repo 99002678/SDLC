@@ -1,4 +1,6 @@
 #include<calculator.h>
+int main()
+{
 char operand;
 
 switch(operand)
@@ -26,4 +28,4 @@ switch(operand)
 			 
 	default: printf("Invalid operation\n");
 }
-	
+}	
